@@ -45,6 +45,7 @@
     </header>
     <!--page-->
     <main>
+      <div class="container">
       <div class="col s12">
         <div class="card">
           <div class="card-content">
@@ -64,18 +65,30 @@
                              
               </div>
               <div class="card-action">
-                <p>Images captured outdoors may be degraded by non-uniform lighting, causing poor visual quality of these pictures. For
-                most object detection tasks,
-                the input images/videos are assumed to possess adequate visual quality to
-                guarantee satisfactory performance. However, accuracy may be adversely
-                affected when the input data are degraded by factors such as excessive noise
-                or poor lighting conditions. In the paper, we develop a deep neural network
-                based on the U-Net architecture that acts as a pre-processing module to restore images/videos with non-uniform light
-                sources to ensure the accuracy
-                of the subsequent object detection process. Experimental results on the VisDrone2019 dataset demonstrate the
-                effectiveness of the proposed method,
-                achieving a remarkable 5% increase in average recall. We expect the framework to be universally applicable to situations
-                that call for the enhancement
+                <p>In recent years, we have witnessed the widespread appli-
+                cation of deep-learning techniques to various surveillance
+                
+                tasks, including human tracking and counting, abnormal
+                behavior detection, and video segmentation. In most cases,
+                the input images/videos are assumed to possess adequate
+                
+                visual quality to guarantee satisfactory performance. How-
+                ever, accuracy may be adversely affected when the input
+                
+                data are degraded by factors such as excessive noise or
+                poor lighting conditions. In the paper, we develop a deep
+                neural network based on the U-Net architecture that acts as
+                
+                a pre-processing module to restore images/videos with non-
+                uniform light sources to ensure the accuracy of the subse-
+                quent object detection process. Experimental results on the
+                
+                VisDrone2019 dataset [1] demonstrate the effectiveness of
+                the proposed method, achieving a remarkable 5% increase
+                
+                in average recall. We expect the framework to be univer-
+                sally applicable to situations that call for the enhancement
+                
                 of raw input data.
                   </p>
               </div>
@@ -92,7 +105,36 @@
                 Yizhou Wang,<strong> Yen-Ting Huang</strong>, Jenq-Neng Hwang,
                 </div>
                 <div class="card-action">
-                <p></p>
+                <p>3D localization of objects in road scenes is important for autonomous
+                driving and advanced driver-assistance systems (ADAS). However,
+                with common monocular camera setups, 3D information is difficult
+                to obtain. In this paper, we propose a novel and robust method
+                for 3D localization of monocular visual objects in road scenes by
+                joint integration of depth estimation, ground plane estimation, and
+                
+                multi-object tracking techniques. Firstly, an object depth estima-
+                tion method with depth confidence is proposed by utilizing the
+                
+                monocular depthmap from a CNN. Secondly, an adaptive ground
+                plane estimation using both dense and sparse features is proposed
+                to localize the objects when their depth estimation is not reliable.
+                Thirdly, temporal information is taken into consideration by a new
+                object tracklet smoothing method. Unlike most existing methods
+                which only consider vehicle localization, our method is applicable
+                
+                for common moving objects in the road scenes, including pedestri-
+                ans, vehicles, cyclists, etc. Moreover, the input depthmap can be
+                
+                replaced by some equivalent depth information from other sensors,
+                like LiDAR, depth camera and Radar, which makes our system much
+                more competitive compared with other object localization methods.
+                
+                As evaluated on KITTI dataset, our method achieves favorable per-
+                formance on 3D localization of both pedestrians and vehicles when
+                
+                compared with the state-of-the-art vehicle localization methods,
+                though no published performance on pedestrian 3D localization
+                can be compared with, from the best of our knowledge.</p>
               </br>
                 <a href="#"> [ Website]</a>
                 
@@ -113,7 +155,27 @@
                 
               </div>
                 <div class="card-action">
-                  <p></p>
+                  <p>Most current research on autonomous UAV
+                  control are conducted in virtual environment and often focus on
+                  specific technical domains, such as communication protocol and
+                  visual computing, etc. These research are rarely integrated as
+                  one, making it less applicable and effective. However,
+                  application platforms solving practical problems require system
+                  integration in real-world environments. In this paper, we
+                  propose a UAV task-oriented flight control system integrated
+                  with real-time sensing based on Robot Operating System. The
+                  flight control system also incorporates behavior tree as a
+                  decision control mechanism. We apply our system in a building
+                  inspection task, whereas the UAV takes-off near the riverbank,
+                  flies forward following the road across a bridge, and arrives at
+                  a designated building to perform a zig-zag image scan. The
+                  system is implemented and field tested on a ready-to-fly
+                  quadrotor. Captured images are transmitted through Wi-Fi to
+                  a laptop for real-time visual sensing, and flight directions are
+                  then calculated and provided to the UAV for navigation. Our
+                  experiment shows promising results - the UAV can successfully
+                  complete the task within 25 minutes. Some suggestions and
+                  solutions are provided for future improvements.</p>
                   </br>
                   <a href="#"> [ Video]</a>
           
@@ -133,7 +195,19 @@
                   
                 </div>
                 <div class="card-action">
-                  <p></p>
+                  <p>With the popularity of UAV rises, there have been
+                  substantial advances in UAV’s disjointed capabilities, such as
+                  object recognition, collision avoidance, path planning, and object
+                  tracking. However, successful autonomous UAV applications can
+                  only be achieved by effective integration of technical components
+                  and rigorous validation in real environments. Our research goal
+                  is to provide an effective control architecture for an autonomous
+                  UAV system. We design behavior tree through expert experience
+                  and demonstrate its capabilities to perform long-duration and
+                  complex UAV inspection task in real world. Over fifty runs of
+                  flight experiment, our developed UAV system, implemented with
+                  a Parrot Bebop 2.0 drone, achieved a success rate of seventy
+                  percent. Technical issues and research experiences are discussed.</p>
                   </br>
                   
           
@@ -147,12 +221,33 @@
             </div>
             <div class="card-stacked">
               <div class="card-content">
+                <h6>
                 [5] Analyzing Social Network Data Using Deep Neural Networks: A Case Study Using Twitter Posts.(ISM)</h6>
                 Wen-Hung Liao, <strong>Yen-Ting Huang</strong>, Tsu-Hsuan Yang, Yi-Chieh Wu
       
                 </div>
                 <div class="card-action">
-                  <p></p>
+                  <p>Abstract—The limitation on the total number of characters
+                  compels Twitter users to compose their messages more succinctly,
+                  suggesting a stronger association between text and image. In
+                  this paper, we employ computer vision and word embedding
+                  techniques to analyze the relationship between image content
+                  and text messages and explore the rich information entangled.
+                  Specifically, we collected all tweets which include keywords
+                  related to Taiwan during 2017. After data cleaning, we apply
+                  machine learning techniques to classify tweets into to travel and
+                  non-travel types. This is achieved by employing deep neural
+                  networks to process and integrate text and image information.
+                  Within each class, we use hierarchical clustering to further
+                  partition the data into different clusters and investigate their
+                  characteristics.<br/>
+                  Through this research, we expect to identify the relationship
+                  between text and images in a tweet and gain more understanding
+                  of the properties of tweets on social networking platforms. The
+                  proposed framework and corresponding analytical results should
+                  also prove useful for qualitative research.
+                  Index Terms—Twitter, social networks, graphical and text
+                  analysis, Word2Vec, deep learning</p>
                   </br>
                   
           
@@ -170,7 +265,32 @@
                 Liao
               </div>
                 <div class="card-action">
-                  <p></p>
+                  <p>Abstract―As a pioneering product of the wearable
+                  devices, Google Glass has many potential applications.
+                  For assisting in reading articles for non-English learners,
+                  its camera has the ability to immediately record
+                  first-person view, and its light weight makes it portable
+                  and accessible anytime, anywhere.</br>
+                  The objective of this research is to develop an assistive
+                  tool to enhance the comprehension of English articles for
+                  non-native speakers. There are two major parts in the
+                  implementation. The first part is App development for
+                  Google Glass, which uses GDK (Google Development Kit)
+                  package for processing input and sensor events, for example camera events and voice trigger commands, and
+                  designing user interface. The second component concerns
+                  the server side, which processes connection from Google
+                  Glass and server, image processing that filter image noise
+                  and get region of interest, optical character recognition
+                  using Tesseract OCR, and searching database which is
+                  built for based on individual word’s difficulty and
+                  meaning.</br>
+                  Through Google Glass as the target of our research
+                  and implementation, we hope to establish a complete and
+                  rapid system to reduce the effort in looking up dictionary,
+                  and therefore boost efficiency when reading English
+                  articles. ea, objective, method, and conclusion (up to 300
+                  words).
+                </p>
                   
                   
           
@@ -191,7 +311,23 @@
                 <strong>Yen-Ting Huang</strong>
 </div>
                 <div class="card-action">
-                  <p></p>
+                  <p>Deep learning framework has been successfully applied to
+                  tackle many challenging tasks in pattern recognition and
+                  computer vision thanks to its ability to automatically extract
+                  representative features from the training data. Such type of
+                  data-driven approach, however, is subject to the criticism of
+                  too much dependency on the training set. In this research, we
+                  attempt to investigate the validity of this statement: ‘deep
+                  learning is only as good as its data’ by evaluating the
+                  performance of deep learning models using heterogeneous
+                  data sets, in which distinct representations of the same source
+                  data are employed for training/testing. We have examined
+                  three cases: low-resolution image, severely compressed input
+                  and halftone image in this work. Our preliminary results
+                  indicate that such dependency indeed exists. Classifier
+                  performance drops considerably when the model is tested with
+                  modified or transformed input. The best outcomes are
+                  obtained when the model is trained with hybrid input.</p>
                   </br>
                   
           
@@ -211,7 +347,21 @@
                 Chen
               </div>
                 <div class="card-action">
-                  <p></p>
+                  <p>The model size and floating-point operations (FLOP) required by convo-
+                  lutional neural networks make it difficult to deploy these models to mobile devices
+                  
+                  or embedded systems. In this paper, we propose a method known as the kernel di-
+                  versifying (KD) algorithm to compress CNN models. The key concept is to maintain
+                  
+                  the diversity of convolutional kernels by preserving the most representative filters
+                  in each network layer. This is achieved by expressing the network architecture as
+                  an undirected graph, and nodes are removed by considering the combined effects of
+                  several factors, including filter similarity, sum of filter similarity and kernel weights.
+                  
+                  Besides, we have identified different pruning strategies for low, middle and high-
+                  level features in different CNN architectures. Finally, extensive experiments were
+                  
+                  performed to demonstrate the efficacy of our proposed algorithm.</p>
                  
               </div>
             </div>
@@ -228,7 +378,21 @@
                   Huang</strong>, Ru-Tai Soong
               </div>
                 <div class="card-action">
-                  <p></p>
+                  <p>Most line following research assumes a task scenario of operating
+                  an UAV at an aerial position with a downward view to the task target. This
+                  research addresses a new task requirement of close-up inspection on vertical
+                  
+                  surfaces, such as building fa ̧cade, tower skeleton and windmill blade. The pro-
+                  cess of UAV inspection may require an accurate line following with slower
+                  
+                  speed to provide high resolution anomaly detection. In this paper, we pro-
+                  gressively propose three probabilistic grid navigation models, illustrate their
+                  
+                  design logics, and provide the computational processes in algorithms. The
+                  three proposed models and their computational algorithms are implemented
+                  on a ready-to-fly UAV and evaluated using different forms of geometric line
+                  segments on vertical surface. Experimental results based on extensive actual
+                  flight tests show successful performance on line following accuracy.</p>
                   
               </div>
             </div>
@@ -236,6 +400,7 @@
           
 
         </div>
+      </div>
       </div>
     </main>
     <!--footer-->
