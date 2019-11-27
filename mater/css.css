@@ -22,7 +22,7 @@ main {
   display: flex;
 }
 .card.horizontal .card-image {
-  max-width: 30%;
+  max-width: 40%;
   display: flex;
   align-items: center;
 }
