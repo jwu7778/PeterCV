@@ -21,3 +21,11 @@ main {
   width: 100%;
   display: flex;
 }
+.card.horizontal .card-image {
+  max-width: 30%;
+  display: flex;
+  align-items: center;
+}
+h6 {
+  font-weight: bold;
+}
