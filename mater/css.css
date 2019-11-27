@@ -29,7 +29,6 @@ main {
 h6 {
   font-weight: bold;
 }
-
 @media all {
   .container {
     width: 90%;
