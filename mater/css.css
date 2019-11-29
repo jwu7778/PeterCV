@@ -34,3 +34,6 @@ h6 {
     width: 90%;
   }
 }
+.nav-wrapper {
+  align-items: center;
+}
